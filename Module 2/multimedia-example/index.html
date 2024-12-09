@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Example</title>
+</head>
+<body>
+  <header role="banner">
+    <h1>Welcome to My Multimedia Page</h1>
+  </header>
+  <section aria-labelledby="image-section">
+    <h2 id="image-section">Image</h2>
+    <img src="assets/pexels-sebastian-189349.jpg" alt="A beautiful ocean sunset" width="600" role="img" aria-label="A beautiful ocean sunset">
+  </section>
+  
+  <section aria-labelledby="audio-section">
+    <h2 id="audio-section">Audio</h2>
+    <audio controls aria-label="Audio player with playback controls">
+      <source src="assets/horse.ogv" type="audio/mpeg">
+      Your browser does not support audio. <a href="horse.ogv">Download the audio file.</a>
+    </audio>
+  </section>
+  
+  <section aria-labelledby="video-section">
+    <h2 id="video-section">Video</h2>
+    <video controls width="600" aria-label="Video player with playback controls">
+      <source src="assets/1390942-sd_960_506_24fps.mp4" type="video/mp4">
+      Your browser does not support video. <a href="assets/1390942-sd_960_506_24fps.mp4">Download the video file.</a>
+    </video>
+  </section>
+</body>
+</html>
