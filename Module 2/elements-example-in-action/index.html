@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Example</title>
+</head>
+<body>
+    <!-- Structural Tags -->
+    <h1>Welcome to My Page!</h1>
+    <p>This page demonstrates the use of various HTML tags.</p>
+    <hr>
+
+    <!-- Text Formatting Tags -->
+    <h2 id="headings-section">Headings</h2>
+    <h1>Main Heading</h1>
+    <h2>Subheading</h2>
+    <h3>Smaller Subheading</h3>
+    <p>Paragraphs group blocks of text.</p>
+    <p><strong>Bold text</strong> and <em>italicized text</em> emphasize content.</p>
+    <p>Line breaks can be added:<br>Line one.<br>Line two.</p>
+    <hr>
+    <!-- List Tags -->
+    <h2 id="lists-section">Lists</h2>
+    <h3>Ordered List:</h3>
+    <ol aria-labelledby="lists-section">
+        <li>First item</li>
+        <li>Second item</li>
+    </ol>
+    <h3>Unordered List:</h3>
+    <ul aria-labelledby="lists-section">
+        <li>First item</li>
+        <li>Second item</li>
+    </ul>
+    <hr>
+    <!-- Links and Anchor Tags -->
+    <h2>Links</h2>
+    <p>
+        <a href="https://example.com" aria-label="Visit Example website">Visit Example</a>
+    </p>
+    <p>
+        <a href="https://example.com" target="_blank" aria-label="Open Example website in a new tab">Open Example in New Tab</a>
+    </p>
+    <p>
+        <a href="mailto:email@example.com" aria-label="Send an email to email@example.com">Send an Email</a>
+    </p>
+    <hr>
+    <!-- Image Tag -->
+    <h2>Images</h2>
+    <p>Basic Image:</p>
+    <img src="image.jpg" alt="Sample Image showing a placeholder content" width="200" height="100" role="img">
+    <hr>
+    <!-- Table Tags -->
+    <h2>Table</h2>
+    <table border="1" role="table" aria-label="Sample table with name and age columns">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
